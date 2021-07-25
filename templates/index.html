@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PyF</title>
+  <meta property="og:title" content="PyF*ck">
+  <meta property="og:description" content="Encode python files without changing or using any of the original code.">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="pyfuck.com">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" type="image/jpg" href="/static/favicon.ico"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body class="bg-light">
+    <div style="margin-top: 5%; margin-left: 5%" class="container">
+        <h1 style="font-size: 85px;" class="display-1">PyF*ck</h1>
+            <h1 style="font-size: 20px; margin-top: 1%">Encode python files without changing or using any of the original code.</h1>
+        <form action="/" method="POST" class="form-inline" id="inp">
+            <div class="form-group">
+                <textarea form="inp" type="text" id="readfile" name="read" style="width: 1000px; height: 150px;"></textarea>
+                <button type="submit" class="btn btn-primary" style="margin-top: -14.2%; margin-left: 93%">Compile</button>
+            </div>
+            <div style="margin-top: 1.4%">
+                <textarea disabled=true class="bg-white rounded" style="width: 1000px; height: 500px; font-family: 'Courier New';">{{ txt }}</textarea>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
