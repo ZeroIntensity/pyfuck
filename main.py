@@ -12,7 +12,7 @@ def index():
 
         return render_template('index.html', txt = compiled)
 
-    return render_template('index.html', txt = "exec(f'')")
+    return render_template('index.html', txt = 'exec(f"")')
 
 
 app.run('localhost', 5000)
