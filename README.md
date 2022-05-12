@@ -1,5 +1,5 @@
 # PyFuck
-### Encode python files without changing or using any of the original code.
+### JSFuck for Python
 
 **Site:** [pyfuck.com](https://pyfuck.com)
 
